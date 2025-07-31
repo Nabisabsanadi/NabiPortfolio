@@ -40,8 +40,8 @@ const Contact = () => {
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Pune Maharashtra ,India',
-      link: 'https://maps.app.goo.gl/Ev95LNnzVd8Adncr9'
+      value: 'Karnataka, India',
+      link: 'https://maps.app.goo.gl/WMoUGvBAmxT4Kc229'
     }
   ];
 
