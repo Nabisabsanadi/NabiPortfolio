@@ -26,7 +26,7 @@ const About = () => {
             About <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Me</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate MERN Stack Developer with 1 year of Front-End experience, skilled in React, JavaScript, HTML, CSS, and Tailwind CSS. I'm actively growing my back-end expertise with Node.js, Express, and MongoDB, and love building clean, user-friendly, and scalable web solutions.
+            I'm a passionate MERN Stack Developer with 1.5 years of Front-End experience, skilled in React, JavaScript, HTML, CSS, and Tailwind CSS. I'm actively growing my back-end expertise with Node.js, Express, and MongoDB, and love building clean, user-friendly, and scalable web solutions.
           </p>
         </div>
 
@@ -47,8 +47,8 @@ const About = () => {
                 <div className="text-gray-400">Projects Completed</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-pink-400 mb-2">1</div>
-                <div className="text-gray-400">Year of Experience</div>
+                <div className="text-3xl font-bold text-pink-400 mb-2">1.5</div>
+                <div className="text-gray-400">Years of Experience</div>
               </div>
             </div>
           </div>
