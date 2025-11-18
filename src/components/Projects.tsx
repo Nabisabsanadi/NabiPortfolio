@@ -20,6 +20,10 @@ const Projects = () => {
      description: 'A full-stack educational platform with secure authentication, complete CRUD operations, protected APIs, and a fully responsive React + Tailwind interface.',
      image: ainexcore,
      tech: ['React', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB-Atlas'],
+     liveUrl: 'https://ainexcore-academy.netlify.app/',
+     githubUrl: 'https://github.com/Nabisabsanadi/ainexcore_frontend',
+     featured: true
+    }
 
 
       title: 'E-Commerce Frontend UI',
