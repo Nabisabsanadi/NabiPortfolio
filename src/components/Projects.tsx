@@ -12,13 +12,15 @@ import roshan from './images/roshan.png';
 import ecom from './images/ecom.png';
 import jewl from './images/jewl.png';
 import webservice from './images/project-8.jpg';
+import ainexcore from './images/ainexcore.jpg';
 const Projects = () => {
   const projects = [
     {
-      // title: 'E-Commerce Platform',
-      // description: 'A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, shopping cart, payment integration, and admin dashboard.',
-      // image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      // tech: ['React','Tailwind CSS', 'Node.js', 'MongoDB', 'Stripe', 'Express'],
+     title: 'Ainexcore Academy – MERN Stack',
+     description: 'A full-stack educational platform with secure authentication, complete CRUD operations, protected APIs, and a fully responsive React + Tailwind interface.',
+     image: ainexcore,
+     tech: ['React', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB-Atlas'],
+
 
       title: 'E-Commerce Frontend UI',
       description: 'A responsive and user-friendly front-end interface for an e-commerce platform. Built with React and Tailwind CSS, featuring product listings, filtering, cart functionality, and seamless user navigation.',
