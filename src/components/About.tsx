@@ -4,8 +4,8 @@ import admin from './images/admin.png';
 
 const About = () => {
   const skills = [
-    { name: 'Frontend', icon: Globe, techs: ['HTML', 'CSS', 'React', 'Tailwind CSS', 'Bootstrap', 'JavaScript', 'TypeScript'], color: 'text-blue-400' },
-    { name: 'Backend', icon: Server, techs: ['Node.js', 'Express', 'Python', 'RESTful APIs'], color: 'text-green-400' },
+    { name: 'Frontend', icon: Globe, techs: ['HTML-5', 'CSS-3', 'React', 'Tailwind CSS','Material UI', 'Bootstrap', 'JavaScript[ES6]', 'TypeScript'], color: 'text-blue-400' },
+    { name: 'Backend', icon: Server, techs: ['Node.js', 'Express', 'Next.js', 'RESTful APIs'], color: 'text-green-400' },
     { name: 'Database', icon: Database, techs: ['MongoDB', 'MongoDB Atlas', 'MySQL'], color: 'text-purple-400' },
     {
       name: 'Graphic Design Tools & Utilities', icon: Smartphone, techs: ['Canva', 'Figma', 'Adobe Photoshop (Basic)', 'Banner Design', 'Social Media Posts', 'Logo Design'],
