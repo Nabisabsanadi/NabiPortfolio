@@ -1,7 +1,7 @@
 import React from 'react';
 import { Code2, Database, Globe, Server, Smartphone, Users } from 'lucide-react';
 import admin from './images/admin.png';
-
+import { Code2, Database, Globe, Server, Smartphone, Users, Cpu, Cloud } from 'lucide-react';
 const About = () => {
   // const skills = [
   //   { name: 'Frontend', icon: Globe, techs: ['HTML-5', 'CSS-3', 'React', 'Tailwind CSS','Material UI', 'Bootstrap', 'JavaScript[ES6]', 'TypeScript'], color: 'text-blue-400' },
