@@ -3,21 +3,120 @@ import { Code2, Database, Globe, Server, Smartphone, Users } from 'lucide-react'
 import admin from './images/admin.png';
 
 const About = () => {
-  const skills = [
-    { name: 'Frontend', icon: Globe, techs: ['HTML-5', 'CSS-3', 'React', 'Tailwind CSS','Material UI', 'Bootstrap', 'JavaScript[ES6]', 'TypeScript'], color: 'text-blue-400' },
-    { name: 'Backend', icon: Server, techs: ['Node.js', 'Express', 'Next.js', 'RESTful APIs'], color: 'text-green-400' },
-    { name: 'Database', icon: Database, techs: ['MongoDB', 'MongoDB Atlas', 'MySQL'], color: 'text-purple-400' },
-    {
-      name: 'Graphic Design Tools & Utilities', icon: Smartphone, techs: ['Canva', 'Figma', 'Adobe Photoshop (Basic)', 'Banner Design', 'Social Media Posts', 'Logo Design'],
-      color: 'text-orange-400'
-    },
-    {
-      name: 'Tools & Utilities', icon: Code2, techs: ['VS Code', 'npm', 'Postman', 'Git', 'GitHub', 'ChatGPT'],
-      color: 'text-pink-400'
-    },
-    { name: 'Soft Skills', icon: Users, techs: ['Problem Solving', 'Communication', 'Adaptability', 'Teamwork'], color: 'text-teal-400' }
-  ];
-
+  // const skills = [
+  //   { name: 'Frontend', icon: Globe, techs: ['HTML-5', 'CSS-3', 'React', 'Tailwind CSS','Material UI', 'Bootstrap', 'JavaScript[ES6]', 'TypeScript'], color: 'text-blue-400' },
+  //   { name: 'Backend', icon: Server, techs: ['Node.js', 'Express', 'Next.js', 'RESTful APIs'], color: 'text-green-400' },
+  //   { name: 'Database', icon: Database, techs: ['MongoDB', 'MongoDB Atlas', 'MySQL'], color: 'text-purple-400' },
+  //   {
+  //     name: 'Graphic Design Tools & Utilities', icon: Smartphone, techs: ['Canva', 'Figma', 'Adobe Photoshop (Basic)', 'Banner Design', 'Social Media Posts', 'Logo Design'],
+  //     color: 'text-orange-400'
+  //   },
+  //   {
+  //     name: 'Tools & Utilities', icon: Code2, techs: ['VS Code', 'npm', 'Postman', 'Git', 'GitHub', 'ChatGPT'],
+  //     color: 'text-pink-400'
+  //   },
+  //   { name: 'Soft Skills', icon: Users, techs: ['Problem Solving', 'Communication', 'Adaptability', 'Teamwork'], color: 'text-teal-400' }
+  // ];
+const skills = [
+  {
+    name: 'Frontend',
+    icon: Globe,
+    techs: [
+      'HTML5', 'CSS3', 'JavaScript (ES6+)', 'TypeScript',
+      'React.js', 'Next.js',
+      'Tailwind CSS', 'Bootstrap', 'Material UI',
+      'Responsive Design',
+      'React Router', 'Context API',
+      'React Hook Form',
+      'Chart.js',
+      'Framer Motion', 'AOS (Animations)'
+    ],
+    color: 'text-blue-400'
+  },
+  {
+    name: 'Backend',
+    icon: Server,
+    techs: [
+      'Node.js', 'Express.js',
+      'RESTful APIs',
+      'JWT Authentication'
+    ],
+    color: 'text-green-400'
+  },
+  {
+    name: 'Database',
+    icon: Database,
+    techs: [
+      'MongoDB', 'MongoDB Atlas',
+      'MySQL'
+    ],
+    color: 'text-purple-400'
+  },
+  {
+    name: 'State Management & Libraries',
+    icon: Code2,
+    techs: [
+      'Redux Toolkit',
+      'Axios', 'Fetch API'
+    ],
+    color: 'text-yellow-400'
+  },
+  {
+    name: 'AI Tools',
+    icon: Cpu,
+    techs: [
+      'ChatGPT',
+      'GitHub Copilot',
+      'Google Gemini'
+    ],
+    color: 'text-indigo-400'
+  },
+  {
+    name: 'Developer Tools',
+    icon: Code2,
+    techs: [
+      'Git (Branching, Merging)',
+      'GitHub',
+      'VS Code',
+      'Postman',
+      'Figma'
+    ],
+    color: 'text-pink-400'
+  },
+  {
+    name: 'Deployment',
+    icon: Cloud,
+    techs: [
+      'Netlify',
+      'Vercel'
+    ],
+    color: 'text-green-300'
+  },
+  {
+    name: 'Graphic & Design',
+    icon: Smartphone,
+    techs: [
+      'Canva',
+      'Figma',
+      'Adobe Photoshop (Basic)',
+      'Banner Design',
+      'Logo Design'
+    ],
+    color: 'text-orange-400'
+  },
+  {
+    name: 'Soft Skills',
+    icon: Users,
+    techs: [
+      'Problem Solving',
+      'Communication',
+      'Adaptability',
+      'Teamwork',
+      'Quick Learner'
+    ],
+    color: 'text-teal-400'
+  }
+];
   return (
     <section id="about" className="py-20 bg-gray-900">
       <div className="container mx-auto px-6">
