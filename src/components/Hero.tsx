@@ -14,6 +14,7 @@ const Hero = () => {
   const [typingSpeed, setTypingSpeed] = useState(150);
 
   const words = [
+    "Technical Trainer & Web Developer",
     "Front-End Developer",
     "MERN Stack Developer",
     "React.js Developer",
