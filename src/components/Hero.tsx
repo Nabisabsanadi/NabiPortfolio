@@ -96,7 +96,7 @@ const Hero = () => {
 
         {/* Description */}
         <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed px-2">
-          Passionate about **web development and technical training**, with hands-on experience in the **MERN Stack**. I enjoy building responsive web applications and helping students turn their ideas into practical projects.
+          Passionate about web development and technical training, with hands-on experience in the MERN Stack. I enjoy building responsive web applications and helping students turn their ideas into practical projects.
 
         </p>
 
