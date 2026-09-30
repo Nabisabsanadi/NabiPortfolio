@@ -125,7 +125,7 @@ const skills = [
             About <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Me</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            I’m a Technical Trainer & Web Developer with 3+ years of experience** in web development and technical training. Skilled in React.js, JavaScript, HTML, CSS, Tailwind CSS, and MERN Stack. I enjoy building responsive web applications and helping students learn through practical, project-based development.
+            I’m a Technical Trainer & Web Developer with 3+ years of experience in web development and technical training. Skilled in React.js, JavaScript, HTML, CSS, Tailwind CSS, and MERN Stack. I enjoy building responsive web applications and helping students learn through practical, project-based development.
           </p>
         </div>
 
