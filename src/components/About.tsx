@@ -125,8 +125,7 @@ const skills = [
             About <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Me</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            I’m a passionate MERN Stack Developer with 1.5 years of front-end experience, skilled in React.js, JavaScript, HTML, CSS, and Tailwind CSS.
-            I love crafting responsive, scalable, and user-friendly web applications, and continuously expanding my back-end expertise with Node.js, Express, and MongoDB.
+            I’m a Technical Trainer & Web Developer with 3+ years of experience** in web development and technical training. Skilled in React.js, JavaScript, HTML, CSS, Tailwind CSS, and MERN Stack. I enjoy building responsive web applications and helping students learn through practical, project-based development.
           </p>
         </div>
 
@@ -138,12 +137,10 @@ const skills = [
               Over time, I strengthened my skills in HTML, CSS, JavaScript, React.js, and the MERN stack, building a strong foundation in full-stack development through consistent practice and real-world projects.
             </p>
 
-            <p className="text-gray-400 leading-relaxed">
-              I started my professional career as a <span className="text-purple-400 font-semibold">Front-End Developer at AIMSIT</span>, where I built responsive single-page applications (SPAs),
-              integrated RESTful APIs, and optimized MongoDB-based systems for dynamic content delivery.
-              Later, I joined <span className="text-pink-400 font-semibold">RNG Play (Game Development Division)</span> as a Front-End Developer,
-              working on slot-based casino games — creating interactive, high-performance interfaces with smooth animations and responsive layouts.
-            </p>
+           <p className="text-gray-400 leading-relaxed">
+            I started my professional career as a <span className="text-purple-400 font-semibold">Technical Trainer & Web Developer at AIMSIT</span>, where I trained students in web development and worked on responsive web applications, RESTful APIs, and practical projects using modern technologies.
+            Later, I joined <span className="text-pink-400 font-semibold">RNG Play (Game Development Division)</span> as a Front-End Developer, working on slot-based casino games and creating interactive interfaces with smooth animations and responsive layouts.
+          </p>
 
             <p className="text-gray-400 leading-relaxed">
               These experiences have honed my ability to craft clean, scalable, and user-centric applications while collaborating in agile teams.
