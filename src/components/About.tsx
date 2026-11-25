@@ -1,45 +1,55 @@
+
 import React from 'react';
-import { Code2, Database, Globe, Server, Smartphone, Users } from 'lucide-react';
+import {
+  Code2, Database, Globe, Server, Smartphone,
+  Users, Cpu, Cloud, Brain
+} from 'lucide-react';
+
 import admin from './images/admin.png';
-import { Code2, Database, Globe, Server, Smartphone, Users, Cpu, Cloud } from 'lucide-react';
-const About = () => {
-  // const skills = [
-  //   { name: 'Frontend', icon: Globe, techs: ['HTML-5', 'CSS-3', 'React', 'Tailwind CSS','Material UI', 'Bootstrap', 'JavaScript[ES6]', 'TypeScript'], color: 'text-blue-400' },
-  //   { name: 'Backend', icon: Server, techs: ['Node.js', 'Express', 'Next.js', 'RESTful APIs'], color: 'text-green-400' },
-  //   { name: 'Database', icon: Database, techs: ['MongoDB', 'MongoDB Atlas', 'MySQL'], color: 'text-purple-400' },
-  //   {
-  //     name: 'Graphic Design Tools & Utilities', icon: Smartphone, techs: ['Canva', 'Figma', 'Adobe Photoshop (Basic)', 'Banner Design', 'Social Media Posts', 'Logo Design'],
-  //     color: 'text-orange-400'
-  //   },
-  //   {
-  //     name: 'Tools & Utilities', icon: Code2, techs: ['VS Code', 'npm', 'Postman', 'Git', 'GitHub', 'ChatGPT'],
-  //     color: 'text-pink-400'
-  //   },
-  //   { name: 'Soft Skills', icon: Users, techs: ['Problem Solving', 'Communication', 'Adaptability', 'Teamwork'], color: 'text-teal-400' }
-  // ];
+
 const skills = [
   {
-    name: 'Frontend',
+    name: 'AI & Machine Learning',
+    icon: Brain,
+    techs: [
+      'Artificial Intelligence',
+      'Machine Learning Fundamentals',
+      'Generative AI',
+      'RAG',
+      'Prompt Engineering',
+      'AI Tools',
+      'Python',
+      'NumPy',
+      'Pandas'
+    ],
+    color: 'text-indigo-400'
+  },
+  {
+    name: 'Frontend Development',
     icon: Globe,
     techs: [
-      'HTML5', 'CSS3', 'JavaScript (ES6+)', 'TypeScript',
-      'React.js', 'Next.js',
-      'Tailwind CSS', 'Bootstrap', 'Material UI',
-      'Responsive Design',
-      'React Router', 'Context API',
-      'React Hook Form',
-      'Chart.js',
-      'Framer Motion', 'AOS (Animations)'
+      'HTML5',
+      'CSS3',
+      'JavaScript (ES6+)',
+      'React.js',
+      'Context API',
+      'React Router',
+      'Tailwind CSS',
+      'Bootstrap',
+      'Responsive UI'
     ],
     color: 'text-blue-400'
   },
   {
-    name: 'Backend',
+    name: 'Backend Development',
     icon: Server,
     techs: [
-      'Node.js', 'Express.js',
-      'RESTful APIs',
-      'JWT Authentication'
+      'Node.js',
+      'Express.js',
+      'REST APIs',
+      'JWT Authentication',
+      'Django',
+      'FastAPI'
     ],
     color: 'text-green-400'
   },
@@ -47,39 +57,41 @@ const skills = [
     name: 'Database',
     icon: Database,
     techs: [
-      'MongoDB', 'MongoDB Atlas',
+      'MongoDB',
       'MySQL'
     ],
     color: 'text-purple-400'
   },
   {
-    name: 'State Management & Libraries',
-    icon: Code2,
+    name: 'UI/UX Design',
+    icon: Smartphone,
     techs: [
-      'Redux Toolkit',
-      'Axios', 'Fetch API'
+      'Figma',
+      'UI Design Fundamentals',
+      'UX Fundamentals',
+      'Wireframing',
+      'Prototyping'
     ],
-    color: 'text-yellow-400'
+    color: 'text-orange-400'
   },
   {
-    name: 'AI Tools',
-    icon: Cpu,
+    name: 'Programming Languages',
+    icon: Code2,
     techs: [
-      'ChatGPT',
-      'GitHub Copilot',
-      'Google Gemini'
+      'Python',
+      'JavaScript (ES6+)'
     ],
-    color: 'text-indigo-400'
+    color: 'text-yellow-400'
   },
   {
     name: 'Developer Tools',
     icon: Code2,
     techs: [
-      'Git (Branching, Merging)',
-      'GitHub',
       'VS Code',
+      'Git',
+      'GitHub',
       'Postman',
-      'Figma'
+      'Google Colab'
     ],
     color: 'text-pink-400'
   },
@@ -93,73 +105,112 @@ const skills = [
     color: 'text-green-300'
   },
   {
-    name: 'Graphic & Design',
-    icon: Smartphone,
-    techs: [
-      'Canva',
-      'Figma',
-      'Adobe Photoshop (Basic)',
-      'Banner Design',
-      'Logo Design'
-    ],
-    color: 'text-orange-400'
-  },
-  {
-    name: 'Soft Skills',
+    name: 'Professional Skills',
     icon: Users,
     techs: [
+      'Technical Training',
+      'Student Mentoring',
       'Problem Solving',
       'Communication',
-      'Adaptability',
       'Teamwork',
-      'Quick Learner'
+      'Project Guidance'
     ],
     color: 'text-teal-400'
   }
 ];
+
+const About = () => {
   return (
     <section id="about" className="py-20 bg-gray-900">
       <div className="container mx-auto px-6">
+
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             About <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Me</span>
           </h2>
+
           <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            I’m a Technical Trainer & Web Developer with 3+ years of experience in web development and technical training. Skilled in React.js, JavaScript, HTML, CSS, Tailwind CSS, and MERN Stack. I enjoy building responsive web applications and helping students learn through practical, project-based development.
+            I’m a Technical Trainer & Web Developer with 5+ years
+            of experience in technical training, programming, and
+            web development. Skilled in Artificial Intelligence,
+            Machine Learning, Python, React.js, JavaScript, MERN
+            Stack, and UI/UX Design. I enjoy building practical
+            applications and helping students learn through
+            hands-on, project-based training.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+
           <div className="space-y-6">
-            <h3 className="text-2xl font-bold text-white mb-4">My Journey</h3>
-            <p className="text-gray-400 leading-relaxed">
-              I began my journey as a self-taught developer, driven by a deep curiosity for web technologies and how they shape digital experiences.
-              Over time, I strengthened my skills in HTML, CSS, JavaScript, React.js, and the MERN stack, building a strong foundation in full-stack development through consistent practice and real-world projects.
-            </p>
 
-           <p className="text-gray-400 leading-relaxed">
-            I started my professional career as a <span className="text-purple-400 font-semibold">Technical Trainer & Web Developer at AIMSIT</span>, where I trained students in web development and worked on responsive web applications, RESTful APIs, and practical projects using modern technologies.
-            Later, I joined <span className="text-pink-400 font-semibold">RNG Play (Game Development Division)</span> as a Front-End Developer, working on slot-based casino games and creating interactive interfaces with smooth animations and responsive layouts.
-          </p>
+            <h3 className="text-2xl font-bold text-white mb-4">
+              My Journey
+            </h3>
 
             <p className="text-gray-400 leading-relaxed">
-              These experiences have honed my ability to craft clean, scalable, and user-centric applications while collaborating in agile teams.
-              I’m passionate about exploring new technologies, contributing to open-source projects, and sharing knowledge through mentorship and community engagement.
+              My journey in technology started with a strong
+              interest in programming and web development.
+              Since then, I have continuously explored new
+              technologies, improved my technical skills, and
+              worked on practical projects.
             </p>
 
             <p className="text-gray-400 leading-relaxed">
-              When I’m not coding, I love experimenting with new tools, improving my problem-solving skills, and staying curious about emerging trends in web development.
+              I started my professional career as a
+              <span className="text-purple-400 font-semibold">
+                {' '}Technical Trainer & Web Developer at AIMSIT
+              </span>,
+              Karnataka (September 2021 – October 2025), where
+              I trained students in web development, programming,
+              React.js, APIs, databases, and UI/UX fundamentals.
+              I also developed responsive web applications and
+              guided students through real-world projects.
+            </p>
+
+            <p className="text-gray-400 leading-relaxed">
+              Later, I joined
+              <span className="text-pink-400 font-semibold">
+                {' '}RNG Play, Noida
+              </span>,
+              as a Front-End Developer in the Game Development
+              Division (December 2025 – March 2026), where I
+              developed interactive game interfaces, animated
+              screens, and responsive UI components.
+            </p>
+
+            <p className="text-gray-400 leading-relaxed">
+              Currently, I work as a
+              <span className="text-purple-400 font-semibold">
+                {' '}Freelance Technical Trainer
+              </span>,
+              delivering hands-on training in Artificial
+              Intelligence, Machine Learning fundamentals,
+              Python programming, Web Development, and UI/UX Design.
+              I enjoy mentoring students, exploring emerging
+              technologies, and building practical applications.
             </p>
 
             <div className="grid grid-cols-2 gap-6 mt-8">
+
               <div className="text-center">
-                <div className="text-3xl font-bold text-purple-400 mb-2">10+</div>
-                <div className="text-gray-400">Projects Completed</div>
+                <div className="text-3xl font-bold text-purple-400 mb-2">
+                  10+
+                </div>
+                <div className="text-gray-400">
+                  Projects Completed
+                </div>
               </div>
+
               <div className="text-center">
-                <div className="text-3xl font-bold text-pink-400 mb-2">1.5</div>
-                <div className="text-gray-400">Years of Experience</div>
+                <div className="text-3xl font-bold text-pink-400 mb-2">
+                  5+
+                </div>
+                <div className="text-gray-400">
+                  Years of Experience
+                </div>
               </div>
+
             </div>
           </div>
 
@@ -171,9 +222,11 @@ const skills = [
               ></div>
             </div>
           </div>
+
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
           {skills.map((skill) => (
             <div
               key={skill.name}
@@ -181,8 +234,11 @@ const skills = [
             >
               <div className="flex items-center mb-4">
                 <skill.icon className={`w-8 h-8 ${skill.color} mr-3`} />
-                <h3 className="text-xl font-semibold text-white">{skill.name}</h3>
+                <h3 className="text-xl font-semibold text-white">
+                  {skill.name}
+                </h3>
               </div>
+
               <div className="space-y-2">
                 {skill.techs.map((tech) => (
                   <div
@@ -195,7 +251,9 @@ const skills = [
               </div>
             </div>
           ))}
+
         </div>
+
       </div>
     </section>
   );
